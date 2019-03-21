@@ -13,7 +13,7 @@
   <!-- PACE Progress Bar START -->
 
   
-  <title>Elenath晟的微博</title>
+  <title>tag: git github | Elenath晟的微博</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   
@@ -21,7 +21,7 @@
   
   <meta property="og:type" content="website">
 <meta property="og:title" content="Elenath晟的微博">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/git-github/index.html">
 <meta property="og:site_name" content="Elenath晟的微博">
 <meta property="og:locale" content="default">
 <meta name="twitter:card" content="summary">
@@ -163,117 +163,38 @@ var themeMenus = {};
         
           <section id="main">
   
-    <article id="post-how-to-write" class="article article-type-post" itemscope itemprop="blogPost">
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
+  
+  
     
     
-      <header class="article-header">
-        
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <h1><a href="/archives/2019" class="archive-year">2019</a></h1>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+
+      <a href="/2019/03/21/how-to-write/" class="archive-article-date">
+		  <time datetime="2019-03-21T05:20:09.000Z" itemprop="datePublished">Mar 21, 2019</time>
+	  </a>
+      
   
     <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2019/03/21/how-to-write/">how use Git and GitHub</a>
+      <a class="archive-article-title" href="/2019/03/21/how-to-write/">how use Git and GitHub</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2019/03/21/how-to-write/" class="article-date">
-	  <time datetime="2019-03-21T05:20:09.000Z" itemprop="datePublished">March 21, 2019</time>
-	</a>
-
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="如何简单地使用git"><a href="#如何简单地使用git" class="headerlink" title="如何简单地使用git"></a>如何简单地使用git</h1><p>本篇文章主要介绍一些git的核心使用方法，不涉及太多命令</p>
-<hr>
-<h2 id="下载git和GitHub的注册"><a href="#下载git和GitHub的注册" class="headerlink" title="下载git和GitHub的注册"></a>下载git和GitHub的注册</h2><p><strong>git</strong>的下载可以直接访问官网<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a><br>官网上也有简洁具体的git安装方法</p>
-<p><strong>GitHub</strong>注册方式也很简单，直接到官网sign up即可<a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a><br>关于github如何建仓库、建立分支、pull request、merge等的简单说明可以看官方文档<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="noopener">https://guides.github.com/activities/hello-world/</a></p>
-<hr>
-<h2 id="本地仓库建立和简单的使用"><a href="#本地仓库建立和简单的使用" class="headerlink" title="本地仓库建立和简单的使用"></a>本地仓库建立和简单的使用</h2><p>先创建一个文件夹作为GitHub在你本地的工作文件夹</p>
-<p>然后右键选择 Git Bash Here (一般装好git后会有这个命令)</p>
-<p>接着输入两个命令来作为git的基础配置</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"your name"</span></span><br><span class="line">git config --global user.email <span class="string">"your email"</span></span><br></pre></td></tr></table></figure>
-<p>然后接着执行：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">git init //初始化git在这个文件夹（在内部会生成.git文件夹）</span><br><span class="line"></span><br><span class="line">git add . //把工作时的所有变化提交到暂存区,不包括被删除的文件</span><br><span class="line"></span><br><span class="line">git commit -m <span class="string">"first commit"</span> //first commit是自己的注释，会在仓库显示</span><br><span class="line"></span><br><span class="line">git remote add origin https://github.com/elenathFGS/elenathfgs.github.com.git</span><br><span class="line">//与远程仓库关联（这里的origin是主机的名字 后面网址是你仓库地址（可以点<span class="built_in">clone</span>得到））</span><br><span class="line"></span><br><span class="line">git push -u origin master</span><br><span class="line">//推送到远程的主机，-u命令表示选定一个默认的主机，以后再推送到同样主机直接 git push即可</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>push失败时可以尝试先pull rebase一下  git pull –rebase origin master</p>
-</blockquote>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-  <span class="ico-tags"></span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git-github/">git github</a></li></ul>
-
-      
-            
-      
-    </footer>
+    </header>
   </div>
-  
 </article>
-
-<!-- Table of Contents -->
-
-    
-
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 class="thumb" itemprop="name">
-      <a class="article-title" href="/2019/03/20/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-meta">
-      
-	Posted on <a href="/2019/03/20/hello-world/" class="article-date">
-	  <time datetime="2019-03-20T08:01:56.014Z" itemprop="datePublished">March 20, 2019</time>
-	</a>
-
-      
-    </div>
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="entry-meta entry-footer">
-      
-      
-      
-            
-      
-    </footer>
-  </div>
-  
-</article>
-
-<!-- Table of Contents -->
-
-    
-
+    </div></section>
   
 
 
