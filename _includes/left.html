@@ -20,10 +20,35 @@
       </p>
     {%- endif -%}
   </div>
+  {%- if include.item.picture -%}
+  <div class="col-xs-12 col-sm-8 col-md-7 col-print-12">
+    {%- if include.item.quote -%}
+      <p class="quote">{{ include.item.quote | markdownify}}</p>
+    {%- endif -%}
+    {%- if include.item.article -%}
+      <p class="article">{{ include.item.article }}</p>
+    {%- endif -%}
+    {%- if include.item.grade -%}
+      <p class="grade">{{ include.item.grade}}</p>
+    {%- endif -%}
+    {{ include.item.description | strip | markdownify }}
+  </div>
+  <div class="col-xs-12 col-sm-4 col-md-2 col-print-12">
+      <span class="{{include.item.img_style}}" style="background-image: url({{ include.item.picture }})"></span>
+  </div>
+  {%- endif -%}
+
+  {%- unless include.item.picture -%}
   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
     {%- if include.item.quote -%}
       <p class="quote">{{ include.item.quote }}</p>
     {%- endif -%}
+    {%- if include.item.grade -%}
+      <p class="grade">{{ include.item.grade }}</p>
+    {%- endif -%}
     {{ include.item.description | strip | markdownify }}
   </div>
+  {%- endunless -%}
+  
 </div>
+

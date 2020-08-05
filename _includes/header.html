@@ -121,6 +121,11 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if site.address -%}
+      <p>
+        {{ site.address_title | default: "Address" }}: {{ site.address | escape }}
+      </p>
+      {%- endif -%}
     </div>
   </div>
 </div>

@@ -1,10 +1,27 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: Tencent Technology (Shanghai)
+  # link: Link to company (optional)
+  job_title: Assistant Computer Vision Engineer
+  dates: June 11 2020 - Present
+  # picture: Images/profile_head.jpg
+  description: |
+    Intern at Data Mining & Content Recommendation Center, Content Research Group. Mentored by Dr. Wentao Yao
+
+    * Worked on the subject of video comprehension, including character recognition and object classification in video frames
+    * Applied Multimodal-learning and feature fusion to deal with video classification task, used Efficient- NetV3 for feature extraction of video frames and audio slices. And a shallow MLP for combined feature mapping
+
+- layout: left
+  company: Massive Data Compute Center of HIT
+  # link: Link to company (optional)
+  job_title: Assistant Researcher
+  dates: July 2019 - May 2020  # (eg. November 2016 - present)
+  # quote: >
+  #  Short description of the company (optional)
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    Intern at NAS (Neural Architecture Search) Group guided by Prof. Hongzhi Wang. Some of the details are as follows:
+
+    * Working on the subject of **diversified multi-objective CNN Architecture Search**
+    * Come up with the idea of **multi-parameter Fast Evaluation Strategy**, reduced model evaluation cost from 70 training epoch to 5 epoch
+    *	Model reach the accuracy **98.1%** in **Cifar10 dataset** with only **2.3M parameters**, which surpassed most of the current SOTA models
+

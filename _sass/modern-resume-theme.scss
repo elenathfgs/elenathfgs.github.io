@@ -33,13 +33,39 @@
   margin: 0 auto;
   margin-bottom: 20px;
   display: block;
-  border-radius: 100px;
+  border-radius: 5px;
   background-size: cover;
   background-position: center;
   background-repeat: repeat, no-repeat;
-  -moz-box-shadow: inset 0 0 20px #636161;
+  -moz-box-shadow: inset 0 0 20px #c5b3b3;
   -webkit-box-shadow: inset 0 0 20px #636161;
-  box-shadow: inset 0 0 20px #636161;
+  box-shadow: inset 0 0 2px #636161;
+}
+
+.project-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  box-shadow: inset 0 0 3px #636161;
+}
+
+.NAS-img {
+  width: 400px;
+  height: 230px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat, no-repeat;
+  box-shadow: inset 0 0 3px #636161;
 }
 
 .into-text-1 {
@@ -94,7 +120,7 @@
     }
 
     .link {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
 
     h4 {
@@ -172,7 +198,33 @@
 }
 
 p.quote {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 1rem 2.5rem;
+  text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+p.article {
+  font-size: 1.8rem;
+  font-style: italic;
+  padding: 1rem 2.5rem;
+  text-align: center;
+
+  @media print {
+    text-align: left;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+  }
+}
+
+p.grade {
+  font-size: 1.8rem;
   font-style: italic;
   padding: 1rem 2.5rem;
   text-align: center;

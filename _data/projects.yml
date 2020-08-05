@@ -1,9 +1,12 @@
-# Project template
-- layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
-  quote: >
-    Short overview of the project (optional)
+# Publication template
+- layout: left
+  name: Neural Architecture Search
+  link: https://arxiv.org/abs/2007.02749 # (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github:  https://github.com/wangcn0201/MoARR # (eg. sproogen/modern-resume-theme)(optional)
+  picture: Images/NAS.png
+  img_style: NAS-img # or project-img, please see the modern-resume-theme.scss
+  article: |
+    Multi-Objective Neural Architecture Search Based on Diverse Structures and Adaptive Recommendation <br/>
+    (Submitted to IEEE. TNNLS Journal)
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    We propose a multi-objective method to automatically search for the Pareto Optimal CNN model. By utilizing a more flexible outer level structure and diverse network cells, and at the same time proposing a Model Fast Evaluation Strategy and Self-Adaptive Recommendation, our framework could find a CNN model that reaches 98.1% accuracy on cifar10 dataset with only 2.3M parameters
