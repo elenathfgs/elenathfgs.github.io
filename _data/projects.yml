@@ -7,6 +7,6 @@
   img_style: NAS-img # or project-img, please see the modern-resume-theme.scss
   article: |
     Multi-Objective Neural Architecture Search Based on Diverse Structures and Adaptive Recommendation <br/>
-    (Submitted to IEEE. TNNLS Journal)
+    (Submitted to The AAAI 2021 Conference on Artificial Intelligence)
   description: | # this will include new lines to allow paragraphs
     We propose a multi-objective method to automatically search for the Pareto Optimal CNN model. By utilizing a more flexible outer level structure and diverse network cells, and at the same time proposing a Model Fast Evaluation Strategy and Self-Adaptive Recommendation, our framework could find a CNN model that reaches 98.1% accuracy on cifar10 dataset with only 2.3M parameters

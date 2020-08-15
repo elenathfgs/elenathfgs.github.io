@@ -48,8 +48,8 @@ darkmode: never
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Images/profile_head2.png # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Guosheng Feng, and I'm getting my B.S. from Harbin Institute of Technology. Currently, I'm studing and doing research at Harbin Massive Data Compute Center,
-  unter the supervision of Professor Hongzhi Wang. I'm currently intern at Tencent Technology(Shanghai), Content Research Group.
+  Hi, my name is Guosheng Feng, and I'm getting my B.S. from Harbin Institute of Technology. I'm previously studing and doing research at Harbin Massive Data Compute Center,
+  unter the supervision of Professor Hongzhi Wang and currently interning at Tencent Technology(Shanghai), Content Research Group.
 
   My major interest lies in:
   * Neural Network Architecture Search (NAS).
