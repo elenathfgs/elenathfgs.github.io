@@ -49,11 +49,12 @@ darkmode: never
 about_profile_image: Images/profile_head2.png # Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Guosheng Feng, and I'm getting my B.S. from Harbin Institute of Technology. I'm previously studing and doing research at Harbin Massive Data Compute Center,
-  unter the supervision of Professor Hongzhi Wang and currently interning at Tencent Technology(Shanghai), Content Research Group.
+  unter the supervision of Prof. Hongzhi Wang. During the last few months, I interned at Tencent Technology(Shanghai) as an Assistant Computer Vision Engineer. 
+  Currently I'm self-conducting the research subject of graph neural network architecture search under the guidance of Prof. Hongzhi Wang.
 
   My major interest lies in:
   * Neural Network Architecture Search (NAS).
-  * CNN for Image Classification.
+  * Image classification and object detection.
   * Graph Neural Networks.
 
   My current research subject is Graph Neural Network Architcture Search.
