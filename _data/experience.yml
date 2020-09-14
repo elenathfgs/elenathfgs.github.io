@@ -3,13 +3,13 @@
   company: Tencent Technology (Shanghai) Co., Ltd.
   # link: Link to company (optional)
   job_title: Assistant Computer Vision Engineer
-  dates: June 11 2020 - Present
+  dates: June 11 2020 - Sep. 2020
   # picture: Images/profile_head.jpg
   description: |
-    Intern at Data Mining & Content Recommendation Center, Content Research Group. Mentored by Dr. Wentao Yao
+    Intern at Data Mining & Content Recommendation Center, Content Research Group. Mentored by Zixun Sun
 
-    * Worked on the subject of video comprehension, including character recognition and object classification in video frames
-    * Applied Multimodal-learning and feature fusion to deal with video classification task, used Efficient- NetV3 for feature extraction of video frames and audio slices. And a shallow MLP for combined feature mapping
+    * Worked on the subject of video comprehension, including object localization and character classification in real-time video streams
+    * Applied Multimodal-learning and feature fusion idea to deal with video classification task
 
 - layout: left
   company: Massive Data Compute Center of HIT
